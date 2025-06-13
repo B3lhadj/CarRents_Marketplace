@@ -1,0 +1,140 @@
+.addProduct {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #1f2937;
+    color: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .addProduct__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .addProduct__backButton,
+  .addProduct__backLink {
+    display: inline-block;
+    color: #60a5fa;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .addProduct__backButton:hover,
+  .addProduct__backLink:hover {
+    color: #3b82f6;
+  }
+  
+  .addProduct__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .addProduct__section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .addProduct__label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #e5e7eb;
+  }
+  
+  .addProduct__input,
+  .addProduct__input select,
+  .addProduct__editor {
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    background-color: #374151;
+    border: 1px solid #4b5563;
+    color: #f3f4f6;
+    font-size: 0.95rem;
+    width: 100%;
+  }
+  
+  .addProduct__input:focus {
+    outline: none;
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.4);
+  }
+  
+  .addProduct__editor {
+    min-height: 200px;
+    background-color: #1e293b;
+    border: 1px solid #475569;
+    border-radius: 8px;
+  }
+  
+  .addProduct__imagePreviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .image-preview {
+    position: relative;
+    width: 150px;
+    height: 120px;
+    border: 2px solid #4b5563;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .image-preview__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .image-preview__close {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+    color: #111827;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .image-preview__close:hover {
+    background-color: #f87171;
+    color: #fff;
+  }
+  
+  .addProduct__submit {
+    text-align: center;
+  }
+  
+  .addProduct__submitButton {
+    background-color: #2563eb;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .addProduct__submitButton:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .addProduct__submitButton:disabled {
+    background-color: #64748b;
+    cursor: not-allowed;
+  }
+  
